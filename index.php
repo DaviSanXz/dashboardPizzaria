@@ -7,8 +7,7 @@
   <title>AdminLTE 3 | Dashboard 3</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- IonIcons -->
@@ -52,42 +51,21 @@
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
-      </div>
-      <!-- /.content-header -->
-
-      <!-- Main content -->
-      <div class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 row d-flex justify-content-center">
-            
-            :::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-          </div>
-          <!-- /.col-md-6 -->
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container-fluid -->
-    </div>
+      <div class="content">
+        <div class="container-fluid">
 
-      <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
 
-    <!-- Control Sidebar -->
+        </div>
+      </div>
+
+
+    </div>
     <aside class="control-sidebar control-sidebar-dark">
-      <!-- Control sidebar content goes here -->
     </aside>
-    <!-- /.control-sidebar -->
-
-    <!-- Main Footer -->
     <?php include_once './components/mainFooter.php' ?>
   </div>
-  <!-- ./wrapper -->
-
-  <!-- REQUIRED SCRIPTS -->
 
   <!-- jQuery -->
   <script src="plugins/jquery/jquery.min.js"></script>
