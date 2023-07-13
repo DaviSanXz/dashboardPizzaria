@@ -48,37 +48,37 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="sobreNos">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Sobre Nós</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="cardapio">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Cardapio</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="evento">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Eventos</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="equipe">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Equipe</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="G+F">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Galeria + Fotos</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="reserva">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Reserva</p>
                   </a>
@@ -98,25 +98,25 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="banner">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Banner</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="card">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Card</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="comentarios">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Comentarios</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="avaliaçoes">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Avaliações</p>
                   </a>

@@ -56,35 +56,22 @@
       <div class="content">
         <div class="container-fluid">
 
-          <div class="conteudo" id="conteudo">
-
-            <a href="#" class="menuLink">Davi</a>
-
-          </div>
+          <div class="conteudo"></div>
 
         </div>
       </div>
-
-
     </div>
     <aside class="control-sidebar control-sidebar-dark">
     </aside>
     <?php include_once './components/mainFooter.php' ?>
   </div>
 
-
   <script src="plugins/jquery/jquery.min.js"></script>
-
   <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   <script src="dist/js/adminlte.js"></script>
-
   <script src="plugins/chart.js/Chart.min.js"></script>
-
   <script src="dist/js/demo.js"></script>
-
   <script src="dist/js/pages/dashboard3.js"></script>
-
   <script src="dist/js/painel.js"></script>
 </body>
 
