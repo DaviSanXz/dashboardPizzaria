@@ -23,6 +23,15 @@
             break;
         case 'equipe':
             include_once './empresa/equipe.php';
-            break;     
+            break;
+        case 'galeriaFotos':
+            include_once './empresa/galeriaFotos.php';
+            break;
+            case 'reserva':
+                include_once './empresa/reserva.php';
+                break;  
+                case 'sobreNosAdd':
+                    include_once './empresa/sobreNosAdd.php';
+                    break;       
     }
 ?>

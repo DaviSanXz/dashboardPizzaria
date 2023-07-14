@@ -72,7 +72,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link menuLateralClick" data-menu="G+F">
+                  <a href="#" class="nav-link menuLateralClick" data-menu="galeriaFotos">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Galeria + Fotos</p>
                   </a>
