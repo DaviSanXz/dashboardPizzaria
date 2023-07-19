@@ -48,7 +48,6 @@ function cardNos() {
                 $('.conteudo').html(retorno);
             }
         });
-
     })
 }
 
