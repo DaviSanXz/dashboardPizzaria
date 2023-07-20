@@ -45,10 +45,55 @@ function cardNos() {
             beforeSend: function () {
 
             }, success: function (retorno) {
-                $('.conteudo').html(retorno);
+                $('ModalAddSobreNos').modal('hide');
+                setTimeout(function () {
+                    atualizarPagina(dataMenu);
+                }, 1000);
             }
         });
     })
 }
 
 
+
+function excGeral(id, page, pageretorno) {
+    var dados = {
+        acao: page,
+        id: id
+    }
+    $.ajax( {
+        type: "POST",
+        dataType: 'html',
+        url: 'controle.php',
+        data: dados,
+        beforeSend: function () {
+
+        }, success: function (retorno) {
+            setTimeout(function () {
+                atualizarPagina(pageretorno);
+
+            }, 1000);
+            
+        }
+    })
+}
+
+
+
+function atualizarPagina(dataMenu) {
+    var dados = {
+        acao: dataMenu
+    }
+
+    $.ajax( {
+        type: "POST",
+        dataType: 'html',
+        url: 'controle.php',
+        data: dados,
+        beforeSend: function() {
+
+        }, success: function (retorno) {
+            $('.conteudo').html('retorno');
+        }
+    });
+}

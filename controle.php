@@ -27,11 +27,14 @@
         case 'galeriaFotos':
             include_once './empresa/galeriaFotos.php';
             break;
-            case 'reserva':
-                include_once './empresa/reserva.php';
+        case 'reserva':
+            include_once './empresa/reserva.php';
                 break;  
-                case 'sobreNosAdd':
-                    include_once './empresa/sobreNosAdd.php';
-                    break;       
+            case 'sobreNosAdd':
+                include_once './empresa/sobreNosAdd.php';
+                break;
+        case 'sobreNosExc':
+            include_once './empresa/sobreNosExc.php';
+                break;              
     }
 ?>
