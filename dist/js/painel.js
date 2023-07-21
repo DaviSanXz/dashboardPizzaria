@@ -4,6 +4,7 @@
 
 $('.menuLateralClick').on('click', function () {
     var dataMenu = $(this).attr('data-menu');
+    $('.conteudo').html(dataMenu);
 
 
     var dados  = {
@@ -27,14 +28,14 @@ $('.menuLateralClick').on('click', function () {
 });
 
 
-function cardNos() {
-    $('.frnCardNos').on('submit', function (retorno){
+function cardNos(idform, idmodal, pageaction, page) {
+    $('.' +idform).submit(function (retorno){
         retorno.preventDefault();
         
         
         var formdata = $(this).serializeArray();
         dados.push(
-            {name: "acao", value: 'sobreNosAdd'}
+            {name: "acao", value: pageaction}
         );
 
         $.ajax( {
@@ -44,10 +45,10 @@ function cardNos() {
             data: dados,
             beforeSend: function () {
 
-            }, success: function (retorno) {
-                $('ModalAddSobreNos').modal('hide');
+            }, success: function () {
+                $('.' +idmodal).modal('hide');
                 setTimeout(function () {
-                    atualizarPagina(dataMenu);
+                    atualizarPagina(page);
                 }, 1000);
             }
         });
@@ -80,9 +81,9 @@ function excGeral(id, page, pageretorno) {
 
 
 
-function atualizarPagina(dataMenu) {
+function atualizarPagina(page) {
     var dados = {
-        acao: dataMenu
+        acao: page
     }
 
     $.ajax( {
