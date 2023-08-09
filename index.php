@@ -1,4 +1,4 @@
-<!DOCTYPE html> ee
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
