@@ -36,3 +36,5 @@ function insertDashboardYummy($tabela, $campos, $valor)
         return false;
     }
 }
+
+function listarGeralID($campo, $table, $campoId, $id)   continuar
